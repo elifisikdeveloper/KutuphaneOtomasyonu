@@ -17,7 +17,7 @@ namespace KutuphaneOtomasyonu
         {
             InitializeComponent();
         }
-        SqlConnection baglanti = new SqlConnection(@"Data Source = ELIFISIK; Initial Catalog = Kutuphane; Integrated Security = True");
+        SqlConnection baglanti = new SqlConnection(@"your_sql_connection");
         private void groupBox3_Enter(object sender, EventArgs e)
         {
 
